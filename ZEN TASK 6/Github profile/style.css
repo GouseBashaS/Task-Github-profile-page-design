@@ -1,0 +1,82 @@
+body{
+    position: relative;
+
+    background-color: #c7d2c1;
+    
+}
+.Topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 2px;
+    background-color:#2f3d46;
+    height:75px;
+}
+.Githublogo{
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    width: 40px;
+    position: fixed;
+    left:30px
+    
+}
+.Sidebar{
+    
+    margin-top: 45px;
+    margin-left: 35px;
+    background-color: #353535;
+    border-radius: 20px;
+    height: 596px; 
+    width: 358px;
+}
+.search{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #353535;
+    height: 45px;
+    width: 600px;
+    border-radius: 10px;
+    color: grey;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding-left: 25px;
+}
+.box{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #cad2c5;
+    gap: 100px;
+    justify-content: center;
+}
+.box div{
+    display: flex;
+    border-radius: 15px;
+    background-color: #353535;
+    height: 150px;
+    width: 200px;
+    justify-content: center;
+} 
+.textarea{ 
+    display: flex;
+    width: 800px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top: 72%;
+    right: 15%;
+    justify-content: center;
+  
+    }
